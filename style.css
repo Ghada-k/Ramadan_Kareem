@@ -12,7 +12,7 @@ body{
 }
 .container{
     position: absolute;
-    top: 50%;
+    top: 36%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -67,8 +67,6 @@ body{
     border-radius: 5px;
     z-index: 2;
     transition: 0.5s;
-    
-
 }
 img{
     width: 90px;
@@ -87,4 +85,15 @@ img{
 .container:hover .letter {
   transform: translate(-115px, -130px);
   transition-delay: 0.8s;
+}
+audio{
+    position:absolute;
+    top: 280%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #ffaa18;
+  color: #efd035;
 }
