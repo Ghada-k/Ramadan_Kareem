@@ -1,2 +1,2 @@
 # Ramadan_Kareem
-html css js
+Ramadan Kareem envelope card (hover effect) with sound content embedded using HTML and CSS.
